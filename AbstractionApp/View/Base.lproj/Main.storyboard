@@ -5,6 +5,8 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Page View Controller-->
@@ -13,7 +15,160 @@
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="p6g-gX-IfJ" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cOg-LP-Yc6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-218" y="157"/>
+            <point key="canvasLocation" x="-234" y="-571"/>
+        </scene>
+        <!--Swift Code-->
+        <scene sceneID="TIH-2X-gYl">
+            <objects>
+                <viewController storyboardIdentifier="SwiftViewController" title="Swift Code" id="wmZ-yp-lc1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q4S-nt-aF0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vqd-5t-1VZ">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OYZ-bX-EaG">
+                                <rect key="frame" x="67" y="538" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.24065077681855551" blue="0.21840278893191589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OYZ-bX-EaG" firstAttribute="width" secondItem="Vqd-5t-1VZ" secondAttribute="width" id="pVL-pO-boj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8ka-Xa-ZlT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ose-np-Dzd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-233" y="118"/>
+        </scene>
+        <!--Block Code-->
+        <scene sceneID="hCQ-Bv-vOx">
+            <objects>
+                <viewController storyboardIdentifier="BlockViewController" title="Block Code" id="D03-1S-4XQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mEo-Gl-tTh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mmo-Sw-D40">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKo-5z-Kh8">
+                                <rect key="frame" x="67" y="538" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32507091717159531" green="1" blue="0.37030176349698241" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wKo-5z-Kh8" firstAttribute="width" secondItem="Mmo-Sw-D40" secondAttribute="width" id="glc-s4-RVX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="udA-xd-o23"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xjp-sA-1rO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1060" y="117"/>
+        </scene>
+        <!--Byte Code-->
+        <scene sceneID="hg5-1U-UDy">
+            <objects>
+                <viewController storyboardIdentifier="ByteCodeViewController" title="Byte Code" id="Knm-sF-zgL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G87-3o-o45">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iKO-bq-9lM">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRj-kh-7qX">
+                                <rect key="frame" x="67" y="540" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.98064900479433315" blue="0.3732750346501188" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HRj-kh-7qX" firstAttribute="width" secondItem="iKO-bq-9lM" secondAttribute="width" id="N49-5S-2h7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Dq0-B1-jQO"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eqc-Gq-cMA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="415" y="116"/>
+        </scene>
+        <!--Binary Code-->
+        <scene sceneID="5or-ZD-WaR">
+            <objects>
+                <viewController storyboardIdentifier="BinaryViewController" title="Binary Code" id="c1j-ry-dUb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="45h-nf-Svf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="223-eQ-2Y7">
+                                <rect key="frame" x="67.5" y="269" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="KSZ-Do-qGd"/>
+                                    <constraint firstAttribute="height" constant="128" id="j33-q8-WsQ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2g1-4O-m1r">
+                                <rect key="frame" x="67" y="524" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="bzH-dR-cMZ"/>
+                                    <constraint firstAttribute="width" constant="42" id="jHE-5F-zS2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.090700959963390337" green="0.87933601206939982" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2g1-4O-m1r" firstAttribute="width" secondItem="223-eQ-2Y7" secondAttribute="width" id="yBm-pC-Dx9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="GEa-gF-9BG"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sPl-J0-qdQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1546" y="116"/>
+        </scene>
+        <!--Logic Gate Code-->
+        <scene sceneID="Q2B-bJ-dnP">
+            <objects>
+                <viewController storyboardIdentifier="LogicalGateViewController" title="Logic Gate Code" id="jc0-u1-Oxz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Fg-YK-HfJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dn0-xb-X1W">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0D-fy-Swl">
+                                <rect key="frame" x="67" y="515" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.59066962266094447" green="0.47502011643245801" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="X0D-fy-Swl" firstAttribute="width" secondItem="dn0-xb-X1W" secondAttribute="width" id="1aw-A8-B7w"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uXZ-Q2-RJN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kfa-SO-Gr8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-882" y="116"/>
         </scene>
     </scenes>
 </document>
