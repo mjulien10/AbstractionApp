@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "binary code.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "swift code.png",
       "scale" : "2x"
     },
     {
